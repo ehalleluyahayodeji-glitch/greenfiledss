@@ -336,7 +336,7 @@ footer {
 
     .head h2 {
         font-size: 15px;
-        width: 300px
+        width: 200px
     }
     .hide{
         display: none;
@@ -352,8 +352,8 @@ footer {
     .farm {
         flex-direction: column-reverse;
         align-items: center;
-        padding: 40px;
-        width: 85%;
+        padding: 20px;
+        width: 100%;
         margin-top: 30px;
     }
     .farm-2 img {
@@ -361,7 +361,8 @@ footer {
         height: 300px;
     }
     .Product-page{
-        width: 420px;
+        width: 100%;
+        padding: 20px;
     }
 
     .Product-page h1 {
@@ -378,7 +379,8 @@ footer {
         height: 250px;
     }
 .our-service{
-    width: 420px;
+    width: 100%;
+    padding: 20px;
 }
     .service-2 {
         flex-direction: column;
@@ -388,8 +390,8 @@ footer {
     font-size: 20px;
 }
     .service-cover {
-        padding: 40px;
-        width: 300px;
+        padding: 20px;
+        width: 100%;
         height: 300px;
         border-radius: 12px;
         background-color: azure;
@@ -404,15 +406,22 @@ footer {
     .contact-us-1 {
         width: 300px;
     }
+    .Our-Product{
+        width: 100%;
+        padding: 20px;
+    }
     .Our-Product-1{
-        width: 20rem;
-        margin-left: -20px;
+        width: 100%;
+    }
+    .latest-news{
+        width: 100%;
+        padding: 20px;
     }
 
 .latest-news-cover {
-    padding: 30px;
+    padding: 20px;
     background-color: white;
-    width: 450px;
+    width: 100%;
     margin: auto;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -427,7 +436,21 @@ footer {
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.contact-us{
+    width: 100%;
+    padding: 20px;
+}
+.form-contact{
+    width: 100%;
+    padding: 20px;
+}
 
+footer{
+    padding: 15px;
+}
+body{
+    overflow-x: hidden;
+}
 
 
 
